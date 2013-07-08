@@ -1,0 +1,47 @@
+# -*- coding: utf-8 -*-
+from datetime import datetime
+from data_parsers.RcmdParser import get_list_of_activities
+from data_parsers.activity_model import Talk, Break
+
+__author__ = 'huziy'
+
+
+def main():
+    import sys
+
+    reload(sys)
+    sys.setdefaultencoding("utf8")
+
+    data_path = "/Users/huziy/IdeaProjects/TableGenerator/data/workshop_2013-05-14-data.txt"
+    from jinja2 import Environment, FileSystemLoader
+
+    env = Environment(loader=FileSystemLoader("templates"))
+
+    env.filters["datetimenow"] = datetime.now
+
+    talk_template = env.get_template('rcmd_talk.tpl.html')
+    break_template = env.get_template("rcmd_break.tpl.html")
+
+    activities = get_list_of_activities(path=data_path)
+
+
+
+    #Number of columns in the resulting table
+    ncols = 3
+    lines = []
+    for act in activities:
+        if isinstance(act, Talk):
+            lines.extend(talk_template.render(talk=act))
+        elif isinstance(act, Break):
+            lines.extend(break_template.render(act=act, ncols=ncols))
+
+    f = open("html/rcmd_2013.html", mode="w")
+    f.write("<table>\n")
+    f.writelines(lines)
+    f.write("</table>")
+    f.close()
+
+
+#entry point
+if __name__ == "__main__":
+    main()

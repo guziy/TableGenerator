@@ -1,0 +1,211 @@
+new_day: Tuesday, May 14th Chair: Danahé Paquin-Ricard (morning sessions) / Oleksandr Huziy (afternoon sessions)
+
+9:00 – 9:10 
+Laxmi Sushama /René Laprise
+sushama.laxmi@uqam.ca/laprise.rene@uqam.ca
+UQAM-ESCER
+Introduction
+
+9:10 – 9:40 
+Patrick Samuelsson
+Patrick.Samuelsson@smhi.se
+SMHI
+Surface-processes development in RCA and in SURFEX
+
+9:40 –10:00 
+Camille Garnaud
+camille@sca.uqam.ca
+UQAM-ESCER
+The effect of driving climate data on the
+simulated terrestrial carbon pools and fluxes and
+the impact of dynamic vegetation on CRCM5
+simulated climate over North America
+
+10:00 – 10:20 
+Martin Leduc
+leduc@scamail.sca.uqam.ca
+UQAM-ESCER
+Investigating the sampling process of an
+ensemble of opportunity: independence of the
+climate models
+
+10:20 – 10:40
+Philippe Lucas-Picher
+plp@sca.uqam.ca
+UQAM-ESCER
+Estimation of the causes of the spring 2011
+Richelieu River flood with the regional climate
+model ALADIN
+
+break: 10:40 – 11:00 Health Break
+
+11:00 – 11:30
+Sebastien biner
+Biner.sebastien@ouranos.ca
+OURANOS
+Variabilité interannuelle et changement
+climatique pour la température sur l'Amérique
+du Nord à l'échelle régionale
+
+11:30 – 12:00
+Stephen Déry
+Stephen.Dery@unbc.ca
+Northern hydrometeorology group (NHG) at the University of Northern British Columbia (UNBC)
+Recent progress in understanding the
+contribution of snow to river discharge in
+northern and western Canada
+
+12:00 – 12:30 
+Claude R. Duguay
+crduguay@uwaterloo.ca
+U.WATERLOO
+Pan-Arctic surface temperature products from MODIS for lake and permafrost investigations
+
+break: 12:30 – 14:00 Lunch break (Agora Hydro-Québec (CO-R500)
+
+14:00 – 14:30
+Laxmi Sushama
+sushama.laxmi@uqam.ca
+UQAM-ESCER
+On the current and future state of permafrost
+
+14:30 – 15:00 
+Richard Harvey
+Harvey.Richard@ouranos.ca
+OURANOS
+Understanding and refining the CLASS Land
+Surface Scheme: numerical precision, soil
+moisture content, and snow albedo.
+
+15:00 – 15:20 
+Leticia Hernández-Díaz
+leticia@sca.uqam.ca
+UQAM-ESCER
+Simulation of current and future climate over
+Africa using the fifth-generation Canadian
+Regional Climate Model (CRCM5): a
+contribution to the CORDEX project
+
+break: 15:20 – 15:40 Health Break
+
+15:40 – 16:00
+Oumarou Nikiema
+oumarou@gmail.com
+UQAM-ESCER
+Energy conversions associated with Intermember
+Variability in an ensemble of Canadian
+Regional Climate Model simulations
+
+16:00 – 16:20
+Mélissa Cholette
+cholette.melissa.2@gmail.com
+UQAM-ESCER
+Feasibility study of a very high resolution
+Regional Climate Model
+
+16:20 – 16:40 
+Maxime Breau
+breau.maxime@gmail.com
+UQAM-ESCER
+Modelling of Ice Clouds Observed during
+ISDAC in polluted and Pristine Air Masses
+
+new_day:  Wednesday, May 15th, Chair: Camille Garnaud (morning sessions) / Martin Leduc (afternoon sessions)
+
+9:00 – 9:30
+Verseghy,Diana [Ontario]
+Diana.Verseghy@ec.gc.ca
+ENVIRONMENT CANADA
+CLASS and the ALMIP2 project
+
+9:30 – 10:00
+John Gyakum
+john.gyakum@mcgill.ca
+McGill
+An analysis of precipitation extremes in the
+Saint Lawrence Valley
+
+10:00 – 10:20
+Adelina Alexandru
+adelina@sca.uqam.ca
+UQAM-ESCER
+Current Climate and Climate Change over
+CORDEX West-Asian Domain as Simulated by
+CRCM5
+
+10:20 – 10:50
+Julie M. Thériault
+Theriault.julie@uqam.ca
+UQAM-ESCER
+Formation processes and measurement of winter
+precipitation types
+
+break: 10:50 – 11:20 Health Break
+
+11:20 – 11:40
+Emilia Diaconescu
+diacones@sca.uqam.ca
+UQAM-ESCER
+CanRCM4 and CRCM5 simulations over North
+America CORDEX domain: evaluation of daily
+precipitation statistics
+
+11:40 –12:00
+Danahé Paquin-Ricard
+danahe@sca.uqam.ca
+UQAM-ESCER
+Different cloud subgrid-scale variability
+parameterizations in the climate model GEM
+with the McICA methodology
+
+12:00 –12:30
+Philippe Gachon
+philippe.gachon@mail.mcgill.ca
+UQAM-ESCER
+High impact weather events and extremes as
+simulated by various Regional Climate Models
+across Canada
+
+break: 12:30 – 14:00 Lunch break (Agora Hydro-Québec (CO-R500)
+
+14:00 – 14:20
+Oleksandr Huziy
+guziy.sasha@gmail.com
+UQAM-ESCER
+Development of lake-river module for Canadian
+Regional Climate Model (CRCM5)
+
+14:20 – 14:40
+Dae Il Jeong
+dae.jeong2@gmail.com
+UQAM-ESCER
+Multivariate analysis of Canadian RCM
+projected changes to flood characteristics for
+northeastern Canada
+
+14:40 – 15:00
+Insa Diop
+ediopinsa@hotmail.com
+UQAM-ESCER
+Validation de la version 5 du Modèle Régional
+Climatique Canadien (MRCC5) par les données
+de précipitation du National Operational
+Weather radar (NOWrad)
+
+break: 15:00 – 15:30 Health Break
+
+15:30 –16:00
+Biljana Music
+Music.Biljana@ouranos.ca
+OURANOS
+Assessing Hydrological Impacts of Climate
+Change over the Great Lakes using Regional
+Climate Simulations
+
+16:00 –16:20 LaxmiSushama
+Sushama.laxmi@uqam.ca
+UQAM-ESCER
+Selected analysis related to drought
+characteristics over Africa
+
+16:20 –16:30 Closing remarks
