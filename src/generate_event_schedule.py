@@ -29,7 +29,7 @@ def main():
     #Number of columns in the resulting table
     ncols = 3
     lines = []
-    for act in activities:
+    for index, act in enumerate(activities):
         if isinstance(act, Talk):
             lines.extend(talk_template.render(talk=act))
         elif isinstance(act, Break):
