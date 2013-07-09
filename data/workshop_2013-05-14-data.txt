@@ -61,7 +61,7 @@ crduguay@uwaterloo.ca
 U.WATERLOO
 Pan-Arctic surface temperature products from MODIS for lake and permafrost investigations
 
-break: 12:30 – 14:00 Lunch break (Agora Hydro-Québec (CO-R500)
+break: 12:30 – 14:00 Lunch break Agora Hydro-Québec (CO-R500)
 
 14:00 – 14:30
 Laxmi Sushama
@@ -166,7 +166,7 @@ High impact weather events and extremes as
 simulated by various Regional Climate Models
 across Canada
 
-break: 12:30 – 14:00 Lunch break (Agora Hydro-Québec (CO-R500)
+break: 12:30 – 14:00 Lunch break Agora Hydro-Québec (CO-R500)
 
 14:00 – 14:20
 Oleksandr Huziy
