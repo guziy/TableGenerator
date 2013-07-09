@@ -12,7 +12,7 @@ def main():
     reload(sys)
     sys.setdefaultencoding("utf8")
 
-    data_path = "/Users/huziy/IdeaProjects/TableGenerator/data/workshop_2013-05-14-data.txt"
+    data_path = "data/workshop_2013-05-14-data.txt"
     from jinja2 import Environment, FileSystemLoader
 
     env = Environment(loader=FileSystemLoader("templates"))
