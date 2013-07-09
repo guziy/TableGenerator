@@ -16,7 +16,10 @@ def _get_start_and_end_times(text):
 
 
 def _get_title_from_one_liner(line):
-    fields = line.split(":")[3:]
+
+    field_index = 3 if line.startswith("break") else 2
+
+    fields = line.split(":")[field_index:]
     return ":".join(fields)[2:].strip()
 
 
@@ -28,13 +31,14 @@ def _parse_block(block):
     first_line = block[0]
 
     if first_line.startswith("new_day"):
-        return DayStartEvent(title=first_line.split(":")[1].strip())
+        return DayStartEvent(title=":".join(first_line.split(":")[1:]).strip())
     else:
 
         startTime, endTime = _get_start_and_end_times(first_line)
 
         if first_line.startswith("break") or len(block) == 1:  # coffee break or similar ..., or one-liner event
             description = _get_title_from_one_liner(first_line)
+            print(description)
             return Break(startTime=startTime, endTime=endTime, description=description)
         else:  # the activity corresponding to a talk
             speakerName = block[1]
@@ -52,23 +56,28 @@ def _parse_block(block):
 
 def get_list_of_activities(path="data/workshop_2013-05-14-data.txt"):
     """
-
     :param path:
     """
     f = open(path)
 
     lines = f.readlines()
 
+    print(lines[-1])
+
     activities = []
     block = []
-    for line in lines:
+    for i, line in enumerate(lines):
         line = line.strip()
         if line == "" and len(block) > 0:
             activities.append(_parse_block(block))
             block = []
+        elif i == len(lines) - 1 and line != "":
+            activities.append(_parse_block([line]))
         else:
             if not line == "":
                 block.append(line)
+
+
 
     f.close()
     return activities
