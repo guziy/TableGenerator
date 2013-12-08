@@ -9,6 +9,7 @@ import re
 def _get_start_and_end_times(text):
     groups = re.findall("\\d+:\\d+", text)
     #print groups
+    print text
     startTime = datetime.strptime(groups[0], "%H:%M")
     endTime = datetime.strptime(groups[1], "%H:%M")
 
@@ -23,7 +24,7 @@ def _get_title_from_one_liner(line):
     return ":".join(fields)[2:].strip()
 
 
-def _parse_block(block):
+def parse_block(block):
     """
     :param block: list of lines for parsing, corresponding to a given activity
     :return: object representing an activity
@@ -54,33 +55,33 @@ def _parse_block(block):
             return talk
 
 
-def get_list_of_activities(path="data/workshop_2013-05-14-data.txt"):
+def get_list_of_activities(path="data/workshop_2013-05-14-data.txt", block_parser = parse_block):
     """
     :param path:
     """
-    f = open(path)
-
-    lines = f.readlines()
-
-    print(lines[-1])
-
     activities = []
-    block = []
-    for i, line in enumerate(lines):
-        line = line.strip()
-        if line == "" and len(block) > 0:
-            activities.append(_parse_block(block))
-            block = []
-        elif i == len(lines) - 1 and line != "":
-            activities.append(_parse_block([line]))
-        else:
-            if not line == "":
-                block.append(line)
+    with open(path) as f:
 
+        lines = f.readlines()
 
+        print(lines[-1])
 
-    f.close()
+        activities = []
+        block = []
+        for i, line in enumerate(lines):
+            line = line.strip()
+            print line
+            if line == "" and len(block) > 0:
+                activities.append(block_parser(block))
+                block = []
+            elif i == len(lines) - 1 and line != "":
+                activities.append(block_parser([line]))
+            else:
+                if not line == "":
+                    block.append(line)
+
     return activities
+
 
 if __name__ == "__main__":
     get_list_of_activities()

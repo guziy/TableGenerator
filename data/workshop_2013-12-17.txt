@@ -1,0 +1,61 @@
+new_day: Day 1 (17 December)
+
+09:00 – 09:45
+Introduction, 5 min lightning talks
+Laxmi Sushama, Sasha Huziy, Participants
+
+09:45 – 10:45
+Basic introduction to CRCM5/CanRCM4 (grid, projection, parameterization, output variables, etc)
+Katja Winger, Minwei Qian
+
+break: 10:45 – 11:00 Health break
+
+11:00 – 12:30
+Available simulation and observation datasets, tools to visualize and process RPN files (CRCM5 output). RPN, NetCDF formats and conversion between the two formats.
+Bernard Dugas or Katja Winger
+
+break: 12:30 – 13:30 Lunch (a possibility to meet with the Network co-investigators that might come by)
+
+14:00 – 15:00
+Plotting model outputs using MATLAB, 2D plots, vertical profiles, part I
+Oumarou Nikiema
+
+break: 15:00 – 15:15 Health break
+
+15:15 – 16:30
+Plotting model outputs using MATLAB, 2D plots, vertical profiles, part II
+Oumarou Nikiema
+
+16:30 – 17:00
+Introduction to R
+Gulilat Tefera Diro
+
+
+new_day: Day 2 (18 December)
+
+09:00 – 09:15
+Recap and impressions from the first day of the workshop
+Participants
+
+09:15 – 10:15
+Introduction to shell and FORTRAN
+Katja Winger
+
+break: 10:15 – 10:30 Health break
+
+10:30 – 12:00
+CDO (Climate Data Operators) tutorial
+Gulilat Tefera Diro
+
+break: 12:00 – 13:00 Lunch
+
+13:00 – 15:00
+Data handling, visualization in Python – Part I
+Sasha Huziy
+
+break: 15:15 – 15:30 Health break
+
+15:30 – 17:00
+Data handling, visualization in Python – Part II
+Sasha Huziy
+

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from datetime import datetime
-from data_parsers.RcmdParser import get_list_of_activities
+import os
+from data_parsers import RcmdParser, CnrcwpStudentWorkshopParser
 from data_parsers.activity_model import Talk, Break, DayStartEvent
 
 __author__ = 'huziy'
@@ -12,7 +13,12 @@ def main():
     reload(sys)
     sys.setdefaultencoding("utf8")
 
-    data_path = "data/workshop_2013-05-14-data.txt"
+    #data_path = "data/workshop_2013-05-14-data.txt"
+    #parser = RcmdParser
+
+    data_path = "data/workshop_2013-12-17.txt"
+    parser = CnrcwpStudentWorkshopParser
+
     from jinja2 import Environment, FileSystemLoader
 
     env = Environment(loader=FileSystemLoader("templates"))
@@ -23,7 +29,8 @@ def main():
     break_template = env.get_template("rcmd_break.tpl.html")
     day_start_template = env.get_template("rcmd_daystart.tpl.html")
 
-    activities = get_list_of_activities(path=data_path)
+    activities = RcmdParser.get_list_of_activities(path=data_path,
+            block_parser=parser.parse_block)
 
 
 
@@ -39,7 +46,8 @@ def main():
             lines.extend(day_start_template.render(act=act, ncols=ncols))
 
 
-    f = open("html/rcmd_2013.html", mode="w")
+    out_file_path = os.path.join("html", os.path.basename(data_path) + ".html")
+    f = open(out_file_path, mode="w")
     f.write("<table class=\"workshop-schedule\">\n")
     f.writelines(lines)
     f.write("</table>")
