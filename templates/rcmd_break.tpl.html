@@ -1,5 +1,11 @@
 <tr class="break {{ 'even' if index % 2 == 0 else 'odd' }}">
-    <td class="time">{{ act.startTime.strftime("%H:%M") }} - {{ act.endTime.strftime("%H:%M") }}</td>
+
+    {% if act.endTime is not none %}
+        <td class="time">{{ act.startTime.strftime("%H:%M") }} - {{ act.endTime.strftime("%H:%M") }}</td>
+    {% else %}
+        <td class="time">{{ act.startTime.strftime("%H:%M") }}</td>
+    {% endif %}
+
     <td colspan="{{ ncols - 1 }}"> {{ act.description }} </td>
 </tr>
 

@@ -1,23 +1,18 @@
 # -*- coding: utf-8 -*-
 from datetime import datetime
 import os
-from data_parsers import RcmdParser, CnrcwpStudentWorkshopParser
+from data_parsers import RcmdParser, CnrcwpStudentWorkshopParser, cnrcwp_science_meeting_parser
 from data_parsers.activity_model import Talk, Break, DayStartEvent
 
 __author__ = 'huziy'
 
 
-def main():
+def main(parser = None, data_path = ""):
     import sys
 
     reload(sys)
     sys.setdefaultencoding("utf8")
 
-    #data_path = "data/workshop_2013-05-14-data.txt"
-    #parser = RcmdParser
-
-    data_path = "data/workshop_2013-12-17.txt"
-    parser = CnrcwpStudentWorkshopParser
 
     from jinja2 import Environment, FileSystemLoader
 
@@ -56,4 +51,28 @@ def main():
 
 #entry point
 if __name__ == "__main__":
-    main()
+
+    #data_path = "data/workshop_2013-05-14-data.txt"
+    #parser = RcmdParser
+
+    #data_path = "data/workshop_2013-12-17.txt"
+
+    data_path = "data/cnrcwp_science_meeting_2014.txt"
+    #parser = CnrcwpStudentWorkshopParser
+    #parser = cnrcwp_science_meeting_parser
+
+
+    known_parsers = [
+        cnrcwp_science_meeting_parser, CnrcwpStudentWorkshopParser, RcmdParser
+    ]
+
+    for the_parser in known_parsers:
+        try:
+            main(parser=the_parser, data_path=data_path)
+        except Exception, e:
+            print "{0} failed".format(the_parser)
+            raise e
+
+
+        print "Used {0} for data parsing".format(the_parser)
+        break

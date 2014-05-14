@@ -1,0 +1,180 @@
+new_day: Thursday, May 29
+
+break: 08:45 Registration
+
+
+09:00
+Laxmi Sushama
+Introduction
+homepage: http://cnrcwp.uqam.ca/node/13
+
+09:20
+Sarah Overington (NSERC)
+NSERC-CCAR Program
+
+
+09:35
+(A1) John Gyakum
+Modulation of extreme warm-season precipitation by the Saint Lawrence River Valley
+homepage: http://cnrcwp.uqam.ca/node/14
+
+09:55
+(A1) John Gyakum/PDF
+Moist baroclinic growth rates, and extratropical transitions as they impact southern Quebec
+homepage: http://cnrcwp.uqam.ca/node/14
+
+
+10:15
+(A2) Meissa Cholette
+Implications of model resolution on the production of freezing rain
+homepage: http://cnrcwp.uqam.ca/node/150
+
+10:35
+(A3) Jean-Philippe Baudouin
+Blocking events and relationships with storm track variability and cold or warm spells across Canada: results using CORDEX-NA runs (i.e. from CanRCM4 and CRCM5 simulations)
+
+break: 10:55	Health break
+
+11:05
+Richard Grotjahn
+LSMPs identifier and assessment tool for extreme weather
+homepage: http://cnrcwp.uqam.ca/node/91
+
+11:35
+(C1) John Scinocca
+CanRCM4: Coordinated Global and Regional Climate Modelling
+homepage: http://cnrcwp.uqam.ca/node/17
+
+11:55
+(A3) Emilia Paula Diaconescu
+CCCma-CanRCM4, OURANOS-CRCM4 and UQAM-CRCM5 simulations over North America: evaluation of daily precipitation
+
+
+break: 12:15	Lunch and poster session (location: SH-4800)
+
+13:40
+Jens Christensen
+Estimating and understanding recent changes in the energy and freshwater budget for Godthåbsfjord catchment with a 5 km regional climate model
+homepage: http://cnrcwp.uqam.ca/node/87
+
+
+14:10
+(B1) Francis Zwiers
+Attribution of the causes of extreme events (using both standard detection and attribution methods and “event attribution” methods) and why, particularly for precipitation, it is still very hard to do this on regional scales.
+homepage: http://cnrcwp.uqam.ca/node/25
+
+
+14:30
+(B1) Zhang Xuebin
+Changes in PMP based on RCM simulations
+homepage: http://cnrcwp.uqam.ca/node/37
+
+14:50
+(B1) Kiri Whan
+Analysis of extremes in regional models
+homepage: http://cnrcwp.uqam.ca/node/152
+
+15:10
+(B2) Gulilat Tefero Diro
+Land-Atmosphere coupling in CRCM5 and its impact on selected extremes
+homepage: http://cnrcwp.uqam.ca/node/156
+
+15:30
+(B3) Ramon de Elia
+TBA
+homepage: http://cnrcwp.uqam.ca/node/45
+
+break: 16:00	Health break
+
+16:10
+(C1) Yanping He
+Simulating Diurnal Variations of Boundary Layer Winds, Temperature, and Humidity using the New Diagnosed Turbulence Parametrization Scheme in CAM-SCM
+homepage: http://cnrcwp.uqam.ca/node/153
+
+16:30
+(Core) Oumarou Nikiéma
+Energy cycle associated with Inter-member Variability in a large ensemble of simulations of the Canadian RCM (CRCM5)
+homepage: http://cnrcwp.uqam.ca/node/167
+
+
+break: 16:50 Co-investigators meeting (location: PK-6120)
+
+
+
+new_day: Friday, May 30
+
+09:00
+(C2) Stephen Déry
+Improving snow modeling in the CRCM5: Strategies moving forward
+homepage: http://cnrcwp.uqam.ca/node/20
+
+09:20
+(C3) Shawn Marshall
+Subgrid modelling of mountain glaciers in RCMs'
+homepage: http://cnrcwp.uqam.ca/node/16
+
+09:40
+(C3) Katja Winger
+On the implementation of dynamic glaciers in CRCM5
+homepage: http://cnrcwp.uqam.ca/node/79
+
+
+10:00
+Bill Gutowski
+Observed and Simulated Extreme Precipitation in the North American Arctic
+homepage: http://cnrcwp.uqam.ca/node/89
+
+break: 10:30 Health break
+
+10:45
+Eleanor Blyth
+Using a land surface model to explore the interplay of water, energy and carbon in the Arctic
+homepage: http://cnrcwp.uqam.ca/node/88
+
+11:15
+(C4) Vivek Arora
+Implementing competition between plant functional types in the Canadian Terrestrial Ecosystem Model (CTEM).
+homepage: http://cnrcwp.uqam.ca/node/19
+
+11:35
+(C4) Rudra Shreshta
+Testing the parameterization for competition between plant functional types (PFTs) in CTEM at selected North American locations.
+homepage: http://cnrcwp.uqam.ca/node/158
+
+break: 11:55	Lunch and poster session  (location: SH-4800)
+
+13:40
+(C4) Camille Garnaud
+Impact of dynamic vegetation on CRCM5 simulated climate over North America
+
+
+14:00
+(C5) Claude Duguay
+Satellite observations of surface state of the Laurentian and Mackenzie Great Lakes
+homepage: http://cnrcwp.uqam.ca/node/21
+
+
+14:20
+(C5) Huziy Oleksandr
+Lakes and rivers in CRCM5 and 3D simulations of The Great Lakes
+homepage: http://cnrcwp.uqam.ca/node/98
+
+
+14:40
+(C6) Laxmi Sushama
+State of near-surface permafrost and its impact on surface climate
+homepage: http://cnrcwp.uqam.ca/node/13
+
+15:00
+(C7) Gulilat Tefera Diro
+TBA
+homepage: http://cnrcwp.uqam.ca/node/156
+
+
+15:20
+Anne Frigon
+Ouranos' research needs and how the Network could help
+
+
+break: 15:40 SAB meeting (location: PK-6120)
+

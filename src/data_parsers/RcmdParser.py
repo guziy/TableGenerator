@@ -6,12 +6,15 @@ __author__ = 'huziy'
 import re
 
 
-def _get_start_and_end_times(text):
+def get_start_and_end_times(text):
     groups = re.findall("\\d+:\\d+", text)
     #print groups
     print text
     startTime = datetime.strptime(groups[0], "%H:%M")
-    endTime = datetime.strptime(groups[1], "%H:%M")
+
+    endTime = None
+    if len(groups) > 1:
+        endTime = datetime.strptime(groups[1], "%H:%M")
 
     return startTime, endTime
 
@@ -35,7 +38,7 @@ def parse_block(block):
         return DayStartEvent(title=":".join(first_line.split(":")[1:]).strip())
     else:
 
-        startTime, endTime = _get_start_and_end_times(first_line)
+        startTime, endTime = get_start_and_end_times(first_line)
 
         if first_line.startswith("break") or len(block) == 1:  # coffee break or similar ..., or one-liner event
             description = _get_title_from_one_liner(first_line)

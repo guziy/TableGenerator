@@ -20,6 +20,7 @@ class Talk(Activity):
         self.spAffiliation = ""
         self.spEmail = ""
         self.title = ""
+        self.speakerHomePage = None
 
     def __str__(self):
         return "'{0}' by {1}({2}) from {3}".format(self.title, self.speakerName, self.spEmail, self.spAffiliation)

@@ -1,13 +1,27 @@
 <tr class="talk {{ 'even' if index % 2 == 0 else 'odd' }}">
-    <td class="time">{{ talk.startTime.strftime("%H:%M") }} - {{ talk.endTime.strftime("%H:%M") }}</td>
-    <td class="name-email-affil"> {{ talk.speakerName }}
-        {% if talk.spEmail|length > 0 %}
-            <br/> {{ talk.spEmail }}
-        {% endif %}
 
-        {% if talk.spEmail|length > 0 %}
+    {%- if not (talk.endTime is none) %}
+        {{ talk.endTime }}
+        <td class="time">{{ talk.startTime.strftime("%H:%M") }} - {{ talk.endTime }}</td>
+    {% else %}
+        <td class="time">{{ talk.startTime.strftime("%H:%M") }}</td>
+    {% endif  -%}
+    <td class="name-email-affil">
+
+        {%- if talk.speakerHomePage is not none %}
+            <a href="{{talk.speakerHomePage}}"><nobr>{{ talk.speakerName }}</nobr></a>
+        {% else %}
+            <nobr>{{ talk.speakerName }}</nobr>
+        {% endif -%}
+
+
+        {%- if talk.spEmail|length > 0 %}
+            <br/> {{ talk.spEmail }}
+        {% endif -%}
+
+        {%- if talk.spEmail|length > 0 %}
         <br/> {{ talk.spAffiliation }}
-        {% endif %}
+        {% endif -%}
     </td>
     <td class="talk-title"> {{ talk.title }} </td>
 </tr>
