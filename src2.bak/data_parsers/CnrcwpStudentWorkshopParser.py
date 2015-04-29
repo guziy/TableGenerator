@@ -2,7 +2,7 @@ from data_parsers.activity_model import DayStartEvent, Break, Talk
 
 __author__ = 'huziy'
 
-from . import RcmdParser
+import RcmdParser
 
 
 
@@ -24,7 +24,7 @@ def parse_block(block):
             print(description)
             return Break(startTime=startTime, endTime=endTime, description=description)
         else:  # the activity corresponding to a talk
-            print(block)
+            print block
             speakerName = block[2] if len(block) >= 3 else ""
             assert len(block) >= 3
             #spEmail = block[2]

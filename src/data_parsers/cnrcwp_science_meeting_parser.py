@@ -26,7 +26,7 @@ def parse_block(block):
             print(description)
             return Break(startTime=startTime, endTime=endTime, description=description)
         else:  # the activity corresponding to a talk
-            print block
+            print(block)
             speakerName = block[1] if len(block) >= 3 else ""
             #spEmail = block[2]
             #spAffiliation = block[3]

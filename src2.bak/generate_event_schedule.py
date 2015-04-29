@@ -69,10 +69,10 @@ if __name__ == "__main__":
     for the_parser in known_parsers:
         try:
             main(parser=the_parser, data_path=data_path)
-        except Exception as e:
-            print("{0} failed".format(the_parser))
+        except Exception, e:
+            print "{0} failed".format(the_parser)
             raise e
 
 
-        print("Used {0} for data parsing".format(the_parser))
+        print "Used {0} for data parsing".format(the_parser)
         break

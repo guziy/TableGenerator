@@ -9,7 +9,7 @@ import re
 def get_start_and_end_times(text):
     groups = re.findall("\\d+:\\d+", text)
     #print groups
-    print(text)
+    print text
     startTime = datetime.strptime(groups[0], "%H:%M")
 
     endTime = None
@@ -67,13 +67,13 @@ def get_list_of_activities(path="data/workshop_2013-05-14-data.txt", block_parse
 
         lines = f.readlines()
 
-        print((lines[-1]))
+        print(lines[-1])
 
         activities = []
         block = []
         for i, line in enumerate(lines):
             line = line.strip()
-            print(line)
+            print line
             if line == "" and len(block) > 0:
                 activities.append(block_parser(block))
                 block = []
