@@ -2,7 +2,7 @@
 
     {% if act.endTime is not none %}
         <td class="time">{{ act.startTime.strftime("%H:%M") }} - {{ act.endTime.strftime("%H:%M") }}</td>
-    {% else %}
+    {% elif act.startTime is not none %}
         <td class="time">{{ act.startTime.strftime("%H:%M") }}</td>
     {% endif %}
 

@@ -8,15 +8,20 @@ import re
 
 def get_start_and_end_times(text):
     groups = re.findall("\\d+:\\d+", text)
-    #print groups
-    print(text)
-    startTime = datetime.strptime(groups[0], "%H:%M")
 
-    endTime = None
-    if len(groups) > 1:
-        endTime = datetime.strptime(groups[1], "%H:%M")
+    start_time, end_time = None, None
+    try:
+        # print groups
+        print(text)
+        start_time = datetime.strptime(groups[0], "%H:%M")
 
-    return startTime, endTime
+        end_time = None
+        if len(groups) > 1:
+            end_time = datetime.strptime(groups[1], "%H:%M")
+    except Exception as e:
+        print("An exception occurred while parsing talk times from " + text)
+
+    return start_time, end_time
 
 
 def _get_title_from_one_liner(line):

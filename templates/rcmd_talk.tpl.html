@@ -3,7 +3,7 @@
     {%- if not (talk.endTime is none) %}
         {{ talk.endTime }}
         <td class="time">{{ talk.startTime.strftime("%H:%M") }} - {{ talk.endTime }}</td>
-    {% else %}
+    {% elif not (talk.startTime is none) %}
         <td class="time">{{ talk.startTime.strftime("%H:%M") }}</td>
     {% endif  -%}
     <td class="name-email-affil">
